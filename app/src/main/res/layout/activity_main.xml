@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="net.doracoin.demoprojects.MainActivity">
+
+    <Button
+        android:id="@+id/btn_double_click"
+        style="@style/DemoButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A 点击我试试" />
+
+    <TextView
+        android:id="@+id/txt_btn_a_click_counts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textSize="18sp"
+        android:text="按钮 A 点击次数： " />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/btn_multi_click"
+        style="@style/DemoButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B 点击我试试" />
+
+    <TextView
+        android:id="@+id/txt_btn_b_click_counts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textSize="18sp"
+        android:text="按钮 B 点击次数： " />
+
+</LinearLayout>
